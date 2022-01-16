@@ -1,7 +1,8 @@
 Feature: To Test the get end point of the application
 
 Background: Setup the Base path
-		Given url 'http://localhost:9897'
+		Given url 'http://localhost:9897' #To launch URI
+		#Operations from GIT2
 
 Scenario: To get the data in JSON format and validate specific property
     And path '/normal/webapi/all'
