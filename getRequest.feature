@@ -2,7 +2,7 @@ Feature: To Test the get end point of the application
 
 	Background: Setup the Base path
 		Given url 'http://localhost:9897'
-		And print 'This is background Keyword'
+		And print '---This is background Keyword----'
 
   Scenario: To get all the data from application in JSON format
 		Given path '/normal/webapi/all'
